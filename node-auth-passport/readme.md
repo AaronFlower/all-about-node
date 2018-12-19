@@ -20,3 +20,7 @@ show collections;
 db.users.find()
 ```
 
+### Middlewares
+
+- express-jwt : Middleware that validates JsonWebTokens and sets `req.user`
+
